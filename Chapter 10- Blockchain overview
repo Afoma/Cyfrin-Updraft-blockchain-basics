@@ -1,1 +1,5 @@
 Block time is how long it takes between blocks being published.
+
+### Sybil resistance
+Sybil resistance is a blockchain's ability to defend against users creating a large number of pseudo-anonymous identities 
+to gain a disproportionately advantageous influence over a said system. It is basically a way for blockchains to defend againsy somebody making a bunch of fake blockchains so they can get mnonre and more rewards.
