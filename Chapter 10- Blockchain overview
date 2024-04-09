@@ -1,5 +1,18 @@
-Block time is how long it takes between blocks being published.
-
 ### Sybil resistance
 Sybil resistance is a blockchain's ability to defend against users creating a large number of pseudo-anonymous identities 
-to gain a disproportionately advantageous influence over a said system. It is basically a way for blockchains to defend againsy somebody making a bunch of fake blockchains so they can get mnonre and more rewards.
+to gain a disproportionately advantageous influence over a said system. It is basically a way for blockchains to defend against
+somebody making a bunch of fake blockchains so they can get mnonre and more rewards.
+
+There are 2 types of Sybil resistance:
+Proof of work and proof of stake
+
+Proof of work is sybil resistance because it has to go through a mining, a computationallyy expensive process, 
+to figure out the answer to the blockchain's riddle of finding the correct nonce or whatever system the blockchain has in place. 
+Proof of work works because no matter how many pseudo-anonynmous accounts you make, they still have to go through the 
+copmutationally expensive process of finding the answer to the blockchain's riddle or problem. Some blockchains make it 
+intentionally hard or easy to change the block time. Block time is how long it takes between blocks being 
+published and it is proportional to how hard these algorithms are. If the system wants the block time to be very long, they make
+the problem or riddle to be very hard.
+
+With proof of work, in order to find out who the block author is, you have to combine it with a chain selection rule. Bitcoin 
+and ethereum use the Nakamoto consensus which is a combination of proof of work and longest chain rule.
