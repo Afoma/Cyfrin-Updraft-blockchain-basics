@@ -33,7 +33,7 @@ A consensus protocol in a blockchain or decentralised system can be broken down 
 
 Proof of Work is known as a Sybil Resistance mechanism. This is what Ethereum and Bitcoin currently use. Proof of Work is defined as a Sybil Resistance mechanism because it defines a way to figure out who the block author is, and which node is going to be the node that finds that mine and becomes the block author so that all the other nodes can verify that it is accurate. 
 
-According to Chat GPT, "Ethereum is gradually moving away from Proof of Work towards Proof of Stake to improve scalability, energy efficiency, and security, as Proof of Stake consensus mechanisms offer several advantages over Proof of Work, including reduced energy consumption and increased network participation incentives. 
+According to Chat GPT, "Ethereum has moved away from Proof of Work towards Proof of Stake to improve scalability, energy efficiency, and security, as Proof of Stake consensus mechanisms offer several advantages over Proof of Work, including reduced energy consumption and increased network participation incentives. 
 
 ### Sybil Resistance
 Sybil resistance is a blockchain's ability to defend against users creating a large number of pseudo-anonymous identities to gain a disproportionately advantageous influence over a said system.
