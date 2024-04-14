@@ -1,18 +1,40 @@
 ### Sybil resistance
 Sybil resistance is a blockchain's ability to defend against users creating a large number of pseudo-anonymous identities 
-to gain a disproportionately advantageous influence over a said system. It is basically a way for blockchains to defend against
-somebody making a bunch of fake blockchains so they can get mnonre and more rewards.
+to gain a disproportionately advantageous influence over a said system. It is a way for blockchains to defend against
+somebody making a bunch of fake blockchains so they can get more and more rewards.
 
 There are 2 types of Sybil resistance:
 Proof of work and proof of stake
 
-Proof of work is sybil resistance because it has to go through a mining, a computationallyy expensive process, 
+Proof of work is Sybil resistance because it has to go through mining, a computationally expensive process, 
 to figure out the answer to the blockchain's riddle of finding the correct nonce or whatever system the blockchain has in place. 
-Proof of work works because no matter how many pseudo-anonynmous accounts you make, they still have to go through the 
-copmutationally expensive process of finding the answer to the blockchain's riddle or problem. Some blockchains make it 
+Proof of work works because no matter how many pseudo-anonymous accounts you make, they still have to go through the 
+computationally expensive process of finding the answer to the blockchain's riddle or problem. Some blockchains make it 
 intentionally hard or easy to change the block time. Block time is how long it takes between blocks being 
-published and it is proportional to how hard these algorithms are. If the system wants the block time to be very long, they make
+published and it is proportional to how hard these algorithms are. If the system wants the block time to be very long, it makes
 the problem or riddle to be very hard.
 
-With proof of work, in order to find out who the block author is, you have to combine it with a chain selection rule. Bitcoin 
-and ethereum use the Nakamoto consensus which is a combination of proof of work and longest chain rule.
+With proof of work, to find out who the block author is, you have to combine it with a chain selection rule. Bitcoin 
+and ethereum uses the Nakamoto consensus which is a combination of proof of work and the longest chain rule. 
+The decentralised network decides which network has the longest chain or the most blocks.
+
+Proof of work is not a consensus protocol, rather, it is a piece of the overall consensus protocol, which in Bitcoin and 
+Ethereum protocol 1, is called Nakamoto consensus, a combination of proof of work and longest chain rule. The people that 
+rewards go to in proof of work are called miners, and in proof of stake are called validators. 
+
+'Bitcoin halving the board' occurs every four years. This halving refers to the block reward being cut in half. This block 
+reward increases the circulating amount of whatever cryptocurrency is being rewarded. on Ethereum, the block reward is giving
+out ethereum, and on Bitcoin, the block reward is giving out Bitcoin. Blockchains have a set time when they stop giving out 
+block rewards and miners get paid transaction fees.
+
+2 types of blockchain attacks
+- Sybil attack
+- 51% attack
+
+Sybil attack: when a user creates a lot of pseudo-anonymous accounts to try to influence a network. Here, a node or an entity
+tries to affect the decentrality of a network by pretending to be multiple different people even though they are the same 
+person or entity.
+
+51% attack: Because of the consensus protocol, blockchains agree that the longest chain is the one that they are going to 
+corroborate as long as it matches up with 51% of the rest of the network. This means that if you have the longest chain and if you have 51% of 
+the network, you can do what is called a fork in the network, and bring the network onto your now longest chain
