@@ -36,5 +36,46 @@ tries to affect the decentrality of a network by pretending to be multiple diffe
 person or entity.
 
 51% attack: Because of the consensus protocol, blockchains agree that the longest chain is the one that they are going to 
-corroborate as long as it matches up with 51% of the rest of the network. This means that if you have the longest chain and if you have 51% of 
-the network, you can do what is called a fork in the network, and bring the network onto your now longest chain
+corroborate with as long as it matches up with 51% of the rest of the network. This means that if you have the longest chain and 
+51% of the network, you can do what is called a fork in the network, and bring the network onto your now longest 
+chain. It has happened on the Ethereum Classic blockchain (not ethereum).
+
+Pros of proof of work
+- it allows us to protect against Sybil attacks
+
+Cons of proof of work
+- Costs a lot of electricity because every node is running to be the first to solve the riddle and this negatively 
+impacts the environment. 
+
+Many blockchains decide to use the other sybil resistance protocol- proof of stake, most especially to be more environmentally
+friendly. Example: Avalanche, Polygon, Polkadot, Solana.
+
+Proof of stake: Instead of competing to solve the riddle, nodes put up some collateral to vouch that they are going to behave 
+honestly. If any of the nodes misbehave, their stakes would be slashed or removed. This Sybil resistance protocol is very 
+efficient because a malicious entity would have to stake some money to create those pseudo-anonymous accounts, and is as the 
+risk of losing all the collateral money. In this system, miners are called validators because they don't bind anything, they only
+validate other nodes. 
+
+In proof of work, all the nodes compete to solve the riddle, however, in proof of stake, the nodes are chosen randomly chosen to 
+propose a new block and the rest of the validators will validate if that node has proposed the block, which is very easy to do by
+checking for uniformity in the block data, hash, etc
+
+Pros of proof of stake
+- great Sybil resistance mechanism and a great way to figure out who the block author should be. 
+- less computationally expensive to figure out the new block because instead of every node competing to do this, only one node
+needs to do this while the other nodes just have to validate it. 
+
+Cond of proof of stake
+- considered a slightly less decentralised network, however, many developers believe that it is very decentralised.
+
+### Layer 1
+Layer 1 is any base layer blockchain implementation. Bitcoin, Ethereum, and Avalanche are Layer 1 or base layer blockchain 
+implementations. 
+
+### Layer 2
+Layer 2 is any application that is added on top of a Layer 1, added on top of a blockchain. Chainlink, Arbitrum, and Optimism are 
+examples of Layer 2. Arbitrum and Optimism are rollups because they roll up their transactions into a Layer 1 like Ethereum. 
+Layer 2s solve scalability issues by being another blockchain that other people can make transactions on. They are different 
+from side chains because side chains derive their security from their protocols whereas rollups derive their security from the 
+base layers
+
