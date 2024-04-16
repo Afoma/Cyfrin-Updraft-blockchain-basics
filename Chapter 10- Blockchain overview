@@ -53,7 +53,7 @@ friendly. Example: Avalanche, Polygon, Polkadot, Solana.
 Proof of stake: Instead of competing to solve the riddle, nodes put up some collateral to vouch that they are going to behave 
 honestly. If any of the nodes misbehave, their stakes would be slashed or removed. This Sybil resistance protocol is very 
 efficient because a malicious entity would have to stake some money to create those pseudo-anonymous accounts, and is as the 
-risk of losing all the collateral money. In this system, miners are called validators because they don't bind anything, they only
+risk of losing their stakes and they need high stakes. In this system, miners are called validators because they don't bind anything, they only
 validate other nodes. 
 
 In proof of work, all the nodes compete to solve the riddle, however, in proof of stake, the nodes are chosen randomly chosen to 
@@ -65,17 +65,19 @@ Pros of proof of stake
 - less computationally expensive to figure out the new block because instead of every node competing to do this, only one node
 needs to do this while the other nodes just have to validate it. 
 
-Cond of proof of stake
+Cons of proof of stake
 - considered a slightly less decentralised network, however, many developers believe that it is very decentralised.
 
 ### Layer 1
 Layer 1 is any base layer blockchain implementation. Bitcoin, Ethereum, and Avalanche are Layer 1 or base layer blockchain 
-implementations. 
+implementations. Charting and rollups are solutions to scalability issues in Layer 1.
 
 ### Layer 2
 Layer 2 is any application that is added on top of a Layer 1, added on top of a blockchain. Chainlink, Arbitrum, and Optimism are 
 examples of Layer 2. Arbitrum and Optimism are rollups because they roll up their transactions into a Layer 1 like Ethereum. 
-Layer 2s solve scalability issues by being another blockchain that other people can make transactions on. They are different 
-from side chains because side chains derive their security from their protocols whereas rollups derive their security from the 
-base layers
+Layer 2 solves scalability issues by being another blockchain which other people can make transactions on. They are different 
+from side chains because side chains derive their security from their protocols whereas rollups derive their security from 
+their base layers. 
 
+A blockchain's scalability problem is that there is not enough block space for the amount of transactions that want to get into
+them and this leads to very high gas prices. 
